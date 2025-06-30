@@ -1,4 +1,4 @@
-# Zepto_PostgreSQL_project
+
 # 🛒 Zepto Sales Analysis with PostgreSQL
 
 This project is a simulation of a sales and inventory analysis for **Zepto**, an online grocery delivery platform. Using PostgreSQL, we analyze various aspects of the product catalog — including stock status, discount performance, and potential revenue — to demonstrate strong SQL data analysis and cleaning capabilities.
