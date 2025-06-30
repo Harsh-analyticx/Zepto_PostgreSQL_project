@@ -4,6 +4,27 @@
 This project is a simulation of a sales and inventory analysis for **Zepto**, an online grocery delivery platform. Using PostgreSQL, we analyze various aspects of the product catalog — including stock status, discount performance, and potential revenue — to demonstrate strong SQL data analysis and cleaning capabilities.
 
 ---
+Key Columns:
+sku_id: Unique product identifier
+
+name: Product name
+
+category: Product category (e.g., Fruits, Beverages)
+
+mrp: Maximum Retail Price
+
+discountpercent: % discount on MRP
+
+discountedsellingprice: Final price after discount
+
+weightingrams: Product weight
+
+availabequantity: Stock quantity available
+
+outofstock: Boolean flag (TRUE if not available)
+
+quantity: Units of the product (for future expansion)
+
 
 ## 📁 1. Project Overview
 
