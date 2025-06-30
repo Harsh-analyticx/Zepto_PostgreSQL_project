@@ -18,25 +18,8 @@ This project involves:
 - Extract insights on product pricing, stock, and revenue.
 - Identify value-for-money products and inefficient stock.
 
+
 ---
-
-## 🧾 2. Database Design
-
-### `zepto` Table Schema
-
-```sql
-CREATE TABLE zepto (
-  sku_id SERIAL PRIMARY KEY,
-  category VARCHAR(120),
-  name VARCHAR(150) NOT NULL,
-  mrp NUMERIC(8,2),
-  discountpercent NUMERIC(8,2),
-  availabequantity INTEGER,
-  discountedsellingprice NUMERIC(8,2),
-  weightingrams INTEGER,
-  outofstock BOOLEAN,
-  quantity INTEGER
-);
 
 # 🔎 Next Steps: Advanced Analysis
 
@@ -79,3 +62,5 @@ Add a `cost_price` column (if available) to calculate:
 
 Stay tuned for updates! 📌  
 Feel free to fork, contribute, or raise issues to improve this project further.
+
+
